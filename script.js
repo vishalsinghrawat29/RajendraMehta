@@ -1,0 +1,124 @@
+// function counting(){
+//     const div = document.getElementById("journey");
+//     var viewportOffset = div.getBoundingClientRect();
+// // these are relative to the viewport, i.e. the window
+// var top = viewportOffset.top;
+
+//     if(top < 60){
+//         console.log(top);
+//          $('.count').each(function () {
+//     $(this).prop('Counter',0).animate({
+//         Counter: $(this).text()
+//     }, {
+//         duration: 4000,
+//         easing: 'swing',
+//         step: function (now) {
+//             $(this).text(Math.ceil(now));
+//         }
+//     });
+// });
+//     }
+// }
+$('.counter').each(function() {
+  var $this = $(this),
+    countTo = $this.attr('data-count');
+
+  $({
+    countNum: $this.text()
+  }).animate({
+      countNum: countTo
+    },
+
+    {
+      duration: 5000,
+      easing: 'linear',
+      step: function() {
+        $this.text(commaSeparateNumber(Math.floor(this.countNum)));
+      },
+      complete: function() {
+        $this.text(commaSeparateNumber(this.countNum));
+        //alert('finished');
+      }
+    }
+  );
+
+});
+
+function commaSeparateNumber(val) {
+  while (/(\d+)(\d{3})/.test(val.toString())) {
+    val = val.toString().replace(/(\d+)(\d{3})/, '$1' + ',' + '$2');
+  }
+  return val;
+}
+
+$(document).ready(function() {
+        // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["Business Consultant", "Data Migration", "Cloud Computing Solutions", "Corporate Training"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+
+    $(window).scroll(function() {
+        // sticky navbar1 on scroll script
+        if (this.scrollY > 20) {
+            $('.navbar1').addClass("sticky");
+            document.getElementById('menu-btn').style.color = "#131A2D";
+        } else {
+            $('.navbar1').removeClass("sticky");
+            document.getElementById('menu-btn').style.color = "#131A2D";
+        }
+
+        // scroll-up button show/hide script
+        if (this.scrollY > 500) {
+            $('.scroll-up-btn').addClass("show");
+        } else {
+            $('.scroll-up-btn').removeClass("show");
+        }
+    });
+
+    // slide-up script
+    $('.scroll-up-btn').click(function() {
+        $('html').animate({ scrollTop: 0 });
+        // removing smooth scroll on slide-up button click
+        $('html').css("scrollBehavior", "auto");
+    });
+
+    $('.navbar1 .menu li a').click(function() {
+        // applying again smooth scroll on menu items click
+        $('html').css("scrollBehavior", "smooth");
+    });
+
+    // toggle menu/navbar1 script
+    $('.menu-btn').click(function() {
+        $('.navbar1 .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
+
+    // owl carousel script
+    $('.carousel').owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0:{
+                items: 1,
+                nav: false
+            },
+            600:{
+                items: 2,
+                nav: false
+            },
+            1000:{
+                items: 3,
+                nav: false
+            }
+        }
+    });
+
+
+
+});

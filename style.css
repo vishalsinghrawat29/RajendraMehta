@@ -431,8 +431,12 @@ footer span a {
     color: var(--text2);
     text-decoration: none;
 }
-.contactform{
+
+.contactform {
     margin-right: 40px;
+}
+.Linkdin:focus{
+box-shadow: none;
 }
 
 
@@ -512,7 +516,8 @@ footer span a {
         padding: 0px 16px;
         margin-top: 10px;
     }
-    .left_box  p br:first-child {
+
+    .left_box p br:first-child {
         display: none;
     }
 
@@ -547,35 +552,39 @@ footer span a {
         margin: 16px;
         text-align: center;
     }
+
     .company_logo {
-    height: 64px;
-}
+        height: 64px;
+    }
 
-.company_logo img {
-    width: 100%;
-    height: auto;
-}
-.aboutHeading {
-    padding: 30px 16px;
-    font-size: 36px;
-    text-align: center;
-    font-weight: 700;
-    margin: 44px 0px 0px 0px;
-}
-.aboutImage {
-    width: 86%;
-    height: auto;
-    margin: 0% 7% 0% 7%;
-}
-.about_box {
-    padding: 7% 0%;
-    margin: 0px 16px;
-}
+    .company_logo img {
+        width: 100%;
+        height: auto;
+    }
 
-.about_box p {
-    font-size: 16px;
-    line-height: 25px;
-}
+    .aboutHeading {
+        padding: 30px 16px;
+        font-size: 36px;
+        text-align: center;
+        font-weight: 700;
+        margin: 44px 0px 0px 0px;
+    }
+
+    .aboutImage {
+        width: 86%;
+        height: auto;
+        margin: 0% 7% 0% 7%;
+    }
+
+    .about_box {
+        padding: 7% 0%;
+        margin: 0px 16px;
+    }
+
+    .about_box p {
+        font-size: 16px;
+        line-height: 25px;
+    }
 
 
     .feature {
@@ -626,48 +635,51 @@ footer span a {
         font-size: 18px;
         padding: 0px 16px 0px 16px;
     }
+
     .serviceBox {
-    border-radius: 12px;
-    margin: 5% 16px;
-    border: 2px solid #C1E5C0;
-}
-.serviceBox img {
-    padding: 12px;
-    width: 140px;
-}
+        border-radius: 12px;
+        margin: 5% 16px;
+        border: 2px solid #C1E5C0;
+    }
 
-.serviceBox p {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 6px;
-    color: var(--text1);
-    width: 100%;
-    margin: 0px;
-}
-.speakingBox {
-    border-radius: 12px;
-    width: 90%;
-    margin: 10px 16px;
-    padding: 2px;
-}
+    .serviceBox img {
+        padding: 12px;
+        width: 140px;
+    }
 
-.speakingBox h1 {
-    font-size: 48px;
-    font-weight: 900;
-    margin-top: 44px;
-    line-height: 36px;
-}
+    .serviceBox p {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 6px;
+        color: var(--text1);
+        width: 100%;
+        margin: 0px;
+    }
 
-.speakingBox p {
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 0px 0px 0px;
-}
+    .speakingBox {
+        border-radius: 12px;
+        width: 90%;
+        margin: 10px 16px;
+        padding: 2px;
+    }
 
-.speakingBox img {
-    margin: 14px;
-    width: 52px;
-}
+    .speakingBox h1 {
+        font-size: 48px;
+        font-weight: 900;
+        margin-top: 44px;
+        line-height: 36px;
+    }
+
+    .speakingBox p {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .speakingBox img {
+        margin: 14px;
+        width: 52px;
+    }
 
 
     .details {
@@ -675,42 +687,33 @@ footer span a {
         margin: 0px;
         padding: 14px 16px;
     }
+
     .details i {
-    font-size: 20px;
-    padding: 6px;
-}
-
-.details .head {
-    font-size: 18px;
-    line-height: 26px;
-}
-
-.details .sub-title {
-    font-size: 16px;
-    line-height: 24px;
-}
-
-/*    input {
-        margin: 5px 16px;
+        font-size: 20px;
+        padding: 6px;
     }
 
-    textarea {
-        margin: 5px 16px;
+    .details .head {
+        font-size: 18px;
+        line-height: 26px;
     }
 
-    select {
-        margin: 5px 16px;
-    }*/
-    .contactform{
-    margin-right: 0px;
-}
-    .contactform .contactInput,
+    .details .sub-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contactform {
+        margin-right: 0px;
+    }
+
+   .contactform .contactInput,
     .contactform  .selectinput,
-    .contactform  .messageinput{
-    margin: 0px 16px;
-    padding: 5px 16px;
-    width: 94%;
-}
+    .contactform  .messageinput {
+        margin: 0px 16px;
+        padding: 5px 16px;
+        width: 94%;
+    }
 
     .submit {
         margin: 20px 0px 6px 30px;

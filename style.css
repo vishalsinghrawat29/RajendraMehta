@@ -704,9 +704,9 @@ footer span a {
     .contactform{
     margin-right: 0px;
 }
-    .contactInput,
-.selectinput,
-.messageinput {
+    .contactform .contactInput,
+    .contactform  .selectinput,
+    .contactform  .messageinput{
     margin: 0px 16px;
     padding: 5px 16px;
     width: 94%;

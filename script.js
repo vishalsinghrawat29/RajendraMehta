@@ -1,24 +1,3 @@
-// function counting(){
-//     const div = document.getElementById("journey");
-//     var viewportOffset = div.getBoundingClientRect();
-// // these are relative to the viewport, i.e. the window
-// var top = viewportOffset.top;
-
-//     if(top < 60){
-//         console.log(top);
-//          $('.count').each(function () {
-//     $(this).prop('Counter',0).animate({
-//         Counter: $(this).text()
-//     }, {
-//         duration: 4000,
-//         easing: 'swing',
-//         step: function (now) {
-//             $(this).text(Math.ceil(now));
-//         }
-//     });
-// });
-//     }
-// }
 $('.counter').each(function() {
   var $this = $(this),
     countTo = $this.attr('data-count');

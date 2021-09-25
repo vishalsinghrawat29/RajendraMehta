@@ -158,14 +158,8 @@ a {
 .company_logo img {
     width: 92%;
     height: auto;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
 }
 
-.company_logo img:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
 
 .workText {
     padding: 8px 16px;
@@ -196,6 +190,7 @@ a {
     right: 15px;
     top: 15px;
 }
+
 .dotbox2 {
     position: relative;
 }
@@ -203,13 +198,15 @@ a {
 .dotbox2 .left {
     position: absolute;
     left: 15px;
-    top:  0px;
+    top: 0px;
 }
+
 .dotbox2 .rigth {
     position: absolute;
     right: 15px;
     top: 0px;
 }
+
 .aboutImage {
     width: 82%;
     height: auto;
@@ -247,7 +244,7 @@ a {
     width: 210px;
 }
 
-.featurBox i{
+.featurBox i {
     margin: 0px 12px;
     font-size: 20px;
     color: var(--primary1);
@@ -256,7 +253,8 @@ a {
 .featurBox:hover {
     background-color: #C1E5C0;
 }
-.servicetext{
+
+.servicetext {
     font-size: 20px;
     line-height: 34px;
     padding: 0px 180px 0px 184px;
@@ -265,22 +263,24 @@ a {
 
 .serviceBox {
     text-align: center;
-    background-color: #F7FCFF ;
+    background-color: #F7FCFF;
     border-radius: 16px;
     margin: 2px 40px 10% 40px;
     border: 2px solid #C1E5C0;
 }
 
 
-.serviceBox:hover{
+.serviceBox:hover {
     box-shadow: 10px -12px 65px 2px rgba(186, 200, 255, 0.54);
     border: none;
     background-color: var(--primary2);
 }
+
 .serviceBox:hover img {
     filter: brightness(0) invert(1);
 }
-.serviceBox:hover p{
+
+.serviceBox:hover p {
     color: var(--text2);
 }
 
@@ -299,7 +299,7 @@ a {
     margin: 6px 4%;
 }
 
-.journeyBox {
+.speakingBox {
     text-align: center;
     border-radius: 12px;
     background-color: var(--text2);
@@ -309,7 +309,7 @@ a {
     padding: 12px;
 }
 
-.journeyBox h1 {
+.speakingBox h1 {
     font-size: 48px;
     font-weight: 900;
     margin-top: 44px;
@@ -318,13 +318,14 @@ a {
     display: inline;
 }
 
-.journeyBox p {
+.speakingBox p {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
     color: var(--text1);
 }
-.journeyBox img {
+
+.speakingBox img {
     margin: 12px;
     width: 48px;
 }
@@ -342,83 +343,108 @@ a {
     width: 70%;
     height: auto;
 }
-.details i{
+
+.details i {
     font-size: 22px;
     padding: 6px;
-    margin: 0px 16px 0px 0px ;
+    margin: 0px 16px 0px 0px;
     color: var(--primary2);
 }
-.details{
+
+.details {
     display: flex;
     width: 70%;
     margin: 36px 40px 20px 40px;
 }
-.details .head{
-     font-weight: 600;
-     font-size: 20px;
-     line-height: 36px;
+
+.details .head {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
 }
-.details .sub-title{
-     font-weight: 400;
-     font-size: 17px;
-     line-height: 26px;
+
+.details .sub-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
 }
-.abouttext{
+
+.abouttext {
     font-size: 20px;
     padding: 0px 180px 0px 184px;
     text-align: center;
 }
+
 input {
-  width: 100%;
-  height: 44px;
+    width: 100%;
+    height: 44px;
     margin: 5px 0;
 }
+
 textarea {
-  width: 100%;
-margin: 5px 0;
-}
-select {
-  width: 100%;
-  height: 44px;
+    width: 100%;
     margin: 5px 0;
 }
-.contactInput, .selectinput, .messageinput {
-        border-color: var(--primary2);
-        color:var(--secondary2);
+
+select {
+    width: 100%;
+    height: 44px;
+    margin: 5px 0;
 }
-.contactInput:focus, .selectinput:focus, .messageinput:focus{
+
+.contactInput,
+.selectinput,
+.messageinput {
+    border-color: var(--primary2);
+    color: var(--secondary2);
+}
+
+.contactInput:focus,
+.selectinput:focus,
+.messageinput:focus {
     box-shadow: none;
-    border-color:var(--secondary2);
-    color:var(--secondary2);
+    border-color: var(--secondary2);
+    color: var(--secondary2);
 }
 
 
-.submit{
-    margin:18px  0px 6px 12px;
+.submit {
+    margin: 18px 0px 6px 12px;
 }
+
 /* footer section styling */
 
-footer{
+footer {
     background: var(--secondary2);
-    padding: 8px 23px;
+    padding: 2px 23px;
     color: var(--text2);
     text-align: center;
     margin-top: 12px;
 }
-footer span{
+
+footer span {
     color: var(--text2);
     text-decoration: none;
 }
-footer span a{
+
+footer span a {
     color: var(--text2);
     text-decoration: none;
 }
-footer span a:hover{
-    text-decoration: underline;
+.contactform{
+    margin-right: 40px;
 }
 
 
 @media (max-width: 947px) {
+
+    .navbar1 {
+        padding: 8px 16px;
+    }
+
+    .navbar1.sticky {
+        padding: 8px 16px;
+    }
 
     .navbar1 .logo a {
         font-size: 22px;
@@ -426,10 +452,16 @@ footer span a:hover{
 
     .navbar1 .menu li a {
         color: var(--text1);
+        margin: 16px;
     }
 
     .navbar1 .menu li a:hover {
         color: var(--primary1);
+    }
+
+    .navbar1 .menu.active {
+        padding: 0px;
+        padding-top: 56px;
     }
 
     .navbar1.sticky .menu li a {
@@ -477,100 +509,226 @@ footer span a:hover{
     }
 
     .left_box {
-        padding: 0px 24px;
+        padding: 0px 16px;
         margin-top: 10px;
+    }
+    .left_box  p br:first-child {
+        display: none;
     }
 
     .headerImage {
         width: 86%;
         height: auto;
-        margin: 20% 7% 0% 7%;
+        margin: 20% 7% 2% 7%;
     }
 
     .left_box h1 {
-        font-size: 46px;
+        font-size: 36px;
+        line-height: 40px;
     }
 
     .left_box p {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 10px;
     }
 
     .connect {
-        margin-top: 10px;
-        width: 160px;
-        height: 38px;
+        margin-top: 6px;
+        width: 150px;
+        height: 36px;
         font-size: 14px;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
     .workText {
-        padding: 4px 8px;
+        padding: 4px 6px;
         font-weight: 700;
         font-size: 26px;
-        margin: 8px;
+        margin: 16px;
+        text-align: center;
+    }
+    .company_logo {
+    height: 64px;
+}
+
+.company_logo img {
+    width: 100%;
+    height: auto;
+}
+.aboutHeading {
+    padding: 30px 16px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin: 44px 0px 0px 0px;
+}
+.aboutImage {
+    width: 86%;
+    height: auto;
+    margin: 0% 7% 0% 7%;
+}
+.about_box {
+    padding: 7% 0%;
+    margin: 0px 16px;
+}
+
+.about_box p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+    .feature {
+        margin-top: 10px;
     }
 
     .featurBox {
-        height: 44px;
+        height: 36px;
         font-size: 18px;
-        width: 180px;
+        width: 154px;
+    }
+
+    .featurBox span {
+        font-size: 16px;
     }
 
     .feature img {
-        width: 26px;
+        width: 20px;
+        margin: 0px 10px;
     }
 
     .dotbox1 img {
         display: none;
     }
+
     .dotbox2 img {
         display: none;
     }
-    .servicetext{
-    font-size: 18px;
-    line-height: 28px;
-    padding: 0px 16px 0px 16px;
-    text-align: left;
+
+    .servicetext {
+        font-size: 17px;
+        line-height: 26px;
+        padding: 0px 16px 0px 16px;
+        text-align: center;
+    }
+
+    .college_logo {
+        height: 100px;
+        padding: 0px;
+    }
+
+    .college_logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .abouttext {
+        font-size: 18px;
+        padding: 0px 16px 0px 16px;
+    }
+    .serviceBox {
+    border-radius: 12px;
+    margin: 5% 16px;
+    border: 2px solid #C1E5C0;
 }
-.college_logo {
-    height: 100px;
-    padding: 8px;
+.serviceBox img {
+    padding: 12px;
+    width: 140px;
 }
-.college_logo img {
+
+.serviceBox p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    color: var(--text1);
     width: 100%;
-    height: auto;
-}
-.abouttext{
-    font-size: 18px;
-    padding: 0px 16px 0px 16px;
-}
-.details{
-    width: 80%;
-    margin: 20px 16px 20px 16px;
-}
-input {
-    margin: 5px 16px;
-}
-textarea {
-margin: 5px 16px;
-}
-select {
-    margin: 5px 16px;
-}
-.submit{
-    margin:20px  0px 6px 30px;
-}
-.modal-body input {
-    margin:0px;
-}
-.modal-body textarea {
-margin: 0px;
-}
-.modal-body select {
     margin: 0px;
 }
-.modal-body .submit{
-    margin:20px  0px 6px 12px;
+.speakingBox {
+    border-radius: 12px;
+    width: 90%;
+    margin: 10px 16px;
+    padding: 2px;
 }
+
+.speakingBox h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 44px;
+    line-height: 36px;
+}
+
+.speakingBox p {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
+
+.speakingBox img {
+    margin: 14px;
+    width: 52px;
+}
+
+
+    .details {
+        width: 100%;
+        margin: 0px;
+        padding: 14px 16px;
+    }
+    .details i {
+    font-size: 20px;
+    padding: 6px;
+}
+
+.details .head {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.details .sub-title {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*    input {
+        margin: 5px 16px;
+    }
+
+    textarea {
+        margin: 5px 16px;
+    }
+
+    select {
+        margin: 5px 16px;
+    }*/
+    .contactform{
+    margin-right: 0px;
+}
+    .contactInput,
+.selectinput,
+.messageinput {
+    margin: 0px 16px;
+    padding: 5px 16px;
+    width: 94%;
+}
+
+    .submit {
+        margin: 20px 0px 6px 30px;
+    }
+
+    .modal-body input {
+        margin: 0px;
+    }
+
+    .modal-body textarea {
+        margin: 0px;
+    }
+
+    .modal-body select {
+        margin: 0px;
+    }
+
+    .modal-body .submit {
+        margin: 20px 0px 6px 12px;
+    }
 }

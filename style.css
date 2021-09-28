@@ -330,19 +330,9 @@ a {
     width: 48px;
 }
 
-.college_logo {
-    height: 70px;
-    padding: 15px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.college_logo img {
-    width: 70%;
-    height: auto;
-}
+
+
 
 .details i {
     font-size: 22px;
@@ -561,6 +551,9 @@ box-shadow: none;
         width: 100%;
         height: auto;
     }
+    .bottomlogo img{
+        width: 60%;
+    }
 
     .aboutHeading {
         padding: 30px 16px;
@@ -621,15 +614,6 @@ box-shadow: none;
         text-align: center;
     }
 
-    .college_logo {
-        height: 100px;
-        padding: 0px;
-    }
-
-    .college_logo img {
-        width: 100%;
-        height: auto;
-    }
 
     .abouttext {
         font-size: 18px;

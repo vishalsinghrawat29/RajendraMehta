@@ -10,6 +10,11 @@
 
 }
 
+::selection {
+    color: var(--text2);
+    background: var(--primary2);
+  }
+
 * {
     margin: 0;
     padding: 0;

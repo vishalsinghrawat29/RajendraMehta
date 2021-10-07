@@ -13,7 +13,7 @@
 ::selection {
     color: var(--text2);
     background: var(--primary2);
-  }
+}
 
 * {
     margin: 0;
@@ -430,8 +430,9 @@ footer span a {
 .contactform {
     margin-right: 40px;
 }
-.Linkdin:focus{
-box-shadow: none;
+
+.Linkdin:focus {
+    box-shadow: none;
 }
 
 
@@ -556,7 +557,8 @@ box-shadow: none;
         width: 100%;
         height: auto;
     }
-    .bottomlogo img{
+
+    .bottomlogo img {
         width: 60%;
     }
 
@@ -696,9 +698,9 @@ box-shadow: none;
         margin-right: 0px;
     }
 
-   .contactform .contactInput,
-    .contactform  .selectinput,
-    .contactform  .messageinput {
+    .contactform .contactInput,
+    .contactform .selectinput,
+    .contactform .messageinput {
         margin: 0px 16px;
         padding: 5px 16px;
         width: 94%;

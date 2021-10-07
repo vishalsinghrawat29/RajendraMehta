@@ -169,9 +169,11 @@ a {
     padding: 0px 180px 0px 184px;
     text-align: center;
 }
-.about_margin{
+
+.about_margin {
     margin-left: 80px;
 }
+
 .aboutHeading {
     padding: 36px 16px;
     font-size: 44px;
@@ -368,13 +370,15 @@ footer span a {
     .about_margin h1 br:first-child {
         display: none;
     }
+
     .service3 h1 br:first-child {
         display: none;
     }
-    .about_box p br{
+
+    .about_box p br {
         display: none;
     }
-   
+
     /*navbar styling */
 
     .navbar1 {
@@ -497,7 +501,8 @@ footer span a {
         padding: 0px 16px 0px 16px;
         text-align: center;
     }
-    .about_margin{
+
+    .about_margin {
         margin-left: 16px;
     }
 
@@ -513,10 +518,11 @@ footer span a {
         margin: 0px 16px;
     }
 
-    .about_box h1{
+    .about_box h1 {
         font-size: 36px;
         line-height: 40px;
     }
+
     .about_box p {
         font-size: 16px;
         line-height: 25px;
@@ -526,10 +532,12 @@ footer span a {
     .number_right {
         display: none;
     }
+
     .number_left {
         display: none;
     }
-    .bgtext{
+
+    .bgtext {
         display: none;
     }
 

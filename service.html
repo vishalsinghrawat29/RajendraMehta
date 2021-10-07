@@ -1,12 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- Ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- OwlCarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="servicestyle.css">
+    <link rel="icon" href="Assets/titleicon.png" type="image/x-icon">
+
     <title>Rajendra Mehta</title>
 </head>
+
 <body>
-    <h1>Rajender</h1>
+    <!-- Navbar -->
+    <nav class="navbar1">
+        <div class="max-width">
+            <div class="logo"><a href="#">Rajendra Mehta</a></div>
+            <ul class="menu">
+                <li><a href="/#home" class="menu-btn">Home</a></li>
+                <li><a href="/#about" class="menu-btn">About</a></li>
+                <li><a href="service.html" class="menu-btn">Services</a></li>
+                <li><a href="/#speaking" class="menu-btn">Speaking</a></li>
+                <li><a href="/#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="container-fluid" style="background-color: #F8FBFF" id="home">
+        <div class="row flex-column-reverse flex-md-row" style="position: relative;">
+            <div class="col-lg-6 col-md-6">
+                <div class="left_box">
+                    <h1>
+                        Planning to migrate <br>your existing data warehouse,
+                    </h1>
+                    <p>
+                        but worried about business risk attached? <br>Don't worry we got you covered.
+                    </p>
+                    <button class="connect" data-bs-toggle="modal" data-bs-target="#getintouch">
+                        Get in Touch
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img src="Assets/serviehead.png" class="headerImage">
+            </div>
+            <div class="bgtext">Service</div>
+        </div>
+    </div>
+
+    <!-- MyServices -->
+    <div class="container-fluid mt-4 mb-5 dotbox2" id="services">
+        <h1 class="aboutHeading">My Services</h1>
+        <p class="servicetext">I help you with a seamless experience, by providing services ranging from cloud computing
+            to corporate training and career consultation, which will help you make good use of your time, money, by
+            eliminating unnecessary risks & costs.</p>
+        <img src="Assets/pattern.png" class="rigth">
+        <img src="Assets/pattern.png" class="left">
+    </div>
+    <div class="container-fluid service_box">
+        <div class="number_right">01</div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <img src="Assets/servieheader.png" class="aboutImage">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="about_box">
+                    <h1>Data Migration and <br>Cloud Computing <br>Solution</h1>
+                    <div class="dash"></div>
+                    <p>migrate your existing data warehouse by identifying <br>the right cloud service provider.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid service_box" style="background-color: #fff;">
+        <div class="number_left">02</div>
+        <div class="row flex-column-reverse flex-md-row">
+            <div class="col-md-6 col-lg-6">
+                <div class="about_box about_margin">
+                    <h1>Corporate <br>Training</h1>
+                    <div class="dash"></div>
+                    <p>Transform your business by enhancing <br>the potential of your team help them to <br>prepare for
+                        the latest trends in <br>the industry.</b></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <img src="Assets/service2.png" class="aboutImage">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid service_box">
+        <div class="number_right">03</div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <img src="Assets/service3.png" class="aboutImage">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="about_box service3">
+                    <h1>Career <br>Consultation</h1>
+                    <div class="dash"></div>
+                    <p> Stuck in career? looking for someone to help <br>you with your Resume, Interview Preparation,
+                        <br>Job Search, You are at the right place.
+                        <br><b>Book a free 1:1 call now.</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- worked with -->
+    <div class="mt-5">
+        <span class="workText">Business I have worked with</span>
+    </div>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 1.png">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 2.png">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 3.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 4.png">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 5.png">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="company_logo">
+                            <img src="Assets/compnay 6.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid mt-0 dotbox2" id="contact">
+        <h1 class="aboutHeading">Let me help you</h1>
+        <p class="abouttext">Fill your details below.<br>Let's Communicate and shared at personal level!!</p>
+        <img src="Assets/pattern.png" class="rigth" style="top:18px;">
+        <img src="Assets/pattern.png" class="left" style="top:18px;">
+        <div class="row mt-5 d-flex justify-content-center">
+            <div class="col-lg-8">
+                <form action="https://formspree.io/f/mvodlner" method="POST">
+                    <div class="row contactform">
+                        <div class="col-md-6 mt-3">
+                            <input type="text" name="name" placeholder="Name" class="form-control contactInput">
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <input type="email" name="email" placeholder="Email" class="form-control contactInput">
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <select class="form-select selectinput" name="subject">
+                                <option value="" hidden>How can I help you?</option>
+                                <option value="Data Migration and Cloud Computing Solution">Data Migration and Cloud
+                                    Computing Solution</option>
+                                <option value="Corporate Training">Corporate Training</option>
+                                <option value="Career Consultation">Career Consultation</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 mt-3">
+                            <div class="col-lg-12">
+                                <textarea name="user-message" id="user-message" class="form-control messageinput"
+                                    cols="20" rows="4"
+                                    placeholder="Any additional details or message for me?"></textarea>
+                                    <button class="connect submit">
+                                        Submit
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer section start -->
+    <footer>
+        <span><a class="btn Linkdin" href="https://www.linkedin.com/in/rajendra-mehta/">
+                <span class="fab fa-linkedin" style="font-size: 20px;"></span></a><span class="far fa-copyright"></span>
+            2021 All rights reserved.</span>
+    </footer>
+
+    <!-- modal -->
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="getintouch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get in Touch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/mvodlner" method="POST">
+                        <div class="row  d-flex justify-content-center">
+                            <div class="col-md-6 mt-3">
+                                <input type="text" placeholder="Name" name="name" class="form-control contactInput">
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <input type="email" placeholder="Email" name="email" class="form-control contactInput">
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <select class="form-select selectinput" name="subject">
+                                    <option value="" hidden>How can I help you?</option>
+                                    <option value="Data Migration and Cloud Computing Solution">Data Migration and Cloud
+                                        Computing Solution</option>
+                                    <option value="Corporate Training">Corporate Training</option>
+                                    <option value="Career Consultation">Career Consultation</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <div class="col-lg-12">
+                                    <textarea name="user-message" id="user-message" class="form-control messageinput"
+                                        cols="20" rows="4"
+                                        placeholder="Any additional details or message for me?"></textarea>
+
+                                        <button class="connect submit">
+                                            Submit
+                                        </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>

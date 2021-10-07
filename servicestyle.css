@@ -371,6 +371,9 @@ footer span a {
     .service3 h1 br:first-child {
         display: none;
     }
+    .about_box p br{
+        display: none;
+    }
    
     /*navbar styling */
 
@@ -517,6 +520,7 @@ footer span a {
     .about_box p {
         font-size: 16px;
         line-height: 25px;
+        width: 324px;
     }
 
     .number_right {

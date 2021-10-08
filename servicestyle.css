@@ -151,7 +151,7 @@ a {
 
 .bgtext {
     position: absolute;
-    right: 100px;
+    left: 0;
     top: 0;
     display: flex;
     justify-content: center;

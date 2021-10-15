@@ -150,23 +150,23 @@ a {
 
 .dotbox2 .left {
     position: absolute;
-    left: -20px;
-    top: 180px;
-    width: 220px;
+    left: -40px;
+    top: 100px;
+    width: 360px;
     /* filter: blur(2px);
     -webkit-filter: blur(2px); */
-    transform: rotate(-30deg);
+ 
 }
 
 .dotbox2 .right {
     position: absolute;
-    right: -20px;
-    top: 180px;
-    width: 220px;
+    right: -100px;
+    top: 140px;
+    width: 360px;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
     /* filter: blur(2px);
     -webkit-filter: blur(2px); */
-    transform: rotate(30deg);
-
 
 }
 

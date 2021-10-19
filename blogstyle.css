@@ -33,6 +33,10 @@ li {
 a {
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+
+}
 
 /*navbar1 style*/
 
@@ -224,7 +228,7 @@ a {
 }
 
 .connect {
-    margin: 0px 4px;
+    margin: 5px 4px;
     padding: 2px 8px;
     border: none;
     font-size: 17px;
@@ -232,11 +236,13 @@ a {
     background-color: #fff;
     color: var(--secondary2);
     display: inline-block;
+    width:100px;
 }
 
 
 .connect:hover {
     background-color: #C1E5C0;
+    color: var(--secondary2);
 }
 
 /* footer section styling */
@@ -429,6 +435,7 @@ footer span a {
         background-color: #fff;
         color: var(--secondary2);
         display: inline-block;
+        width:84px;
     }
 
 }

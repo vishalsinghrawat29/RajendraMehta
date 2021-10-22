@@ -33,7 +33,8 @@ li {
 a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 
 }
@@ -236,7 +237,7 @@ a:hover{
     background-color: #fff;
     color: var(--secondary2);
     display: inline-block;
-    width:100px;
+    width: 100px;
 }
 
 
@@ -269,9 +270,63 @@ footer span a {
     box-shadow: none;
 }
 
+.telegramBtn {
+    position: fixed;
+    z-index: 100;
+    bottom: 30px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    background-color: var(--primary2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition: all 0.5s;
+}
+
+.telegramBtn a {
+    white-space: nowrap;
+}
+
+.telegramBtn span {
+    display: none;
+    color: var(--text2);
+    font-size: 18px;
+    transition: all 0.5s;
+    font-weight: 700;
+}
+
+.telegramBtn:hover span {
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.telegramBtn:hover {
+    width: 212px;
+    transition: all 0.5s;
+}
+
+.telegramBtn img {
+    width: 36px;
+    height: auto;
+}
 
 
 @media (max-width: 947px) {
+
+    .telegramBtn {
+        bottom: 16px;
+        right: 16px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .telegramBtn img {
+        width: 28px;
+        height: auto;
+        margin-right: 4px;
+    }
 
     .navbar1 {
         padding: 8px 16px;
@@ -291,7 +346,7 @@ footer span a {
     }
 
     .navbar1 .menu li a:hover {
-        color: var(--primary1);
+        color: var(--primary2);
     }
 
     .navbar1 .menu.active {
@@ -325,7 +380,7 @@ footer span a {
         top: 0;
         background: var(--text2);
         text-align: center;
-        padding-top: 80px;
+        padding-top: 0px;
         transition: all 0.3s ease;
     }
 
@@ -339,7 +394,7 @@ footer span a {
 
     .navbar1 .menu li a {
         display: inline-block;
-        margin: 20px 0;
+        margin: 14px 0;
         font-size: 25px;
     }
 
@@ -435,7 +490,7 @@ footer span a {
         background-color: #fff;
         color: var(--secondary2);
         display: inline-block;
-        width:84px;
+        width: 84px;
     }
 
 }

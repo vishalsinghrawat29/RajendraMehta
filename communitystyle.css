@@ -132,25 +132,26 @@ a {
 
 
 .connect {
-    margin-top: 10px;
-    border: none;
-    width: 280px;
-    height: 64px;
+    margin-top: 40px;
     font-size: 20px;
     font-weight: 600;
     background-color: var(--primary2);
     color: var(--text2);
     border-radius: 6px;
+    padding: 18px 16px 18px 0px;
+    text-decoration: none;
 }
 
-.connectimg {
-    width: 48px;
+
+.connecting {
+    width: 44px;
     height: auto;
-    margin: 0% 4% 0% 0%;
+    margin: 18px 14px 18px 14px;
 }
 
 .connect:hover {
     background-color: var(--secondary2);
+    color: var(--text2);
 }
 
 
@@ -406,17 +407,24 @@ footer span a {
 
     .connect {
         margin-top: 6px;
-        width: 200px;
-        height: 36px;
         font-size: 14px;
-        margin-bottom: 12px;
+        padding: 10px 12px 10px 0px;
+        margin-bottom: 6px;
     }
 
-    .connectimg {
+    .connecting {
         width: 28px;
         height: auto;
-        margin: 0% 2% 0% 0%;
+        margin: 10px 6px 10px 6px;
     }
+
+    .guide {
+        margin: 14px 0px 14px 0px;
+        font-size: 14px;
+    }
+
+
+
 
     .aboutHeading {
         padding: 30px 16px;
